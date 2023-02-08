@@ -1,0 +1,5 @@
+com\qa\Tests\LoginPageTest.class
+com\ExtentReport\ExtentReport.class
+com\qa\Tests\CartPageTest.class
+com\qa\Tests\BaseTest.class
+com\qa\Tests\InventoryPageTest.class

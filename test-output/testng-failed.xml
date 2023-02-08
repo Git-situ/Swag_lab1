@@ -5,11 +5,8 @@
     <classes>
       <class name="com.qa.Tests.LoginPageTest">
         <methods>
-          <include name="verifyErrorMessageForUsername"/>
           <include name="setUpMethod"/>
-          <include name="startReport"/>
           <include name="verifyLogin"/>
-          <include name="verifyLoginLogoTest"/>
           <include name="tearDownMethod"/>
         </methods>
       </class> <!-- com.qa.Tests.LoginPageTest -->

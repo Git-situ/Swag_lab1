@@ -33,10 +33,7 @@ public class BaseTest {
 	LoginPage login;
 	String expected;
 
-	ExtentSparkReporter htmlReporter;
-	ExtentReports reports;
-	ExtentTest test;
-
+	
 	@BeforeMethod
 	public void setUpMethod() {
 		WebDriverManager.chromedriver().setup();
@@ -51,43 +48,12 @@ public class BaseTest {
 
 	}
 
-	@BeforeClass
-	public void startReport() {
-		SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd_HH-mm-ss");
-		String reportName = dateFormat.format(new Date()) + ".html";
-
-		htmlReporter = new ExtentSparkReporter(".//Extent Reports/" + "Sauce Lab Demo_" + reportName);
-		reports = new ExtentReports();
-		reports.attachReporter(htmlReporter);
-
-		// add environment details
-		reports.setSystemInfo("Machine", "HP");
-		reports.setSystemInfo("Author", "SITU");
-		reports.setSystemInfo("Environment", "SIT");
-
-		// configuration to change look and feel
-		htmlReporter.config().setDocumentTitle("Sauce Lab Demo");
-		htmlReporter.config().setReportName("Sauce Labs Report");
-		htmlReporter.config().setTimeStampFormat("yyyy-MM-dd_HH-mm-ss");
-
-	}
 
 	@AfterMethod
 	public void tearDownMethod(ITestResult a) throws Exception {
 		
 		UtilityMethods.screenshot(driver, a.getName());
 
-		if (ITestResult.FAILURE == a.getStatus()) {
-
-			test.log(Status.FAIL, MarkupHelper.createLabel(a.getName() + " Failed", ExtentColor.RED));
-			test.fail(a.getThrowable());
-		} else if (ITestResult.SUCCESS == a.getStatus()) {
-			test.log(Status.PASS, MarkupHelper.createLabel(a.getName() + " Passed", ExtentColor.GREEN));
-			test.pass(a.getThrowable());
-		} else if (ITestResult.SKIP == a.getStatus())
-			test.log(Status.SKIP, MarkupHelper.createLabel(a.getName() + " Skipped", ExtentColor.PURPLE));
-
-		reports.flush();
 		driver.close();
 	}
 

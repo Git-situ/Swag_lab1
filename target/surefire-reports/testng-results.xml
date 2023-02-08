@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="14" passed="14" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Error message : Epic sadface: Password is required]]>
+    </line>
+    <line>
+      <![CDATA[Error message : Epic sadface: Username is required]]>
+    </line>
+    <line>
+      <![CDATA[Error message : Epic sadface: Username and password do not match any user in this service]]>
+    </line>
+    <line>
+      <![CDATA[Login page Title : Swag Labs]]>
+    </line>
+    <line>
+      <![CDATA[Login page URL : https://www.saucedemo.com/]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-02-08T07:57:02 IST" name="Surefire suite" finished-at="2023-02-08T08:01:37 IST" duration-ms="274812">
+    <groups>
+    </groups>
+    <test started-at="2023-02-08T07:57:02 IST" name="Surefire test" finished-at="2023-02-08T08:01:37 IST" duration-ms="274812">
+      <class name="com.qa.Tests.InventoryPageTest">
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:com.qa.Tests.InventoryPageTest@58a9760d]" started-at="2023-02-08T07:57:02 IST" name="setUpMethod" finished-at="2023-02-08T07:58:40 IST" duration-ms="98111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method signature="verifyCartCountTest()[pri:0, instance:com.qa.Tests.InventoryPageTest@58a9760d]" started-at="2023-02-08T07:58:40 IST" name="verifyCartCountTest" finished-at="2023-02-08T07:58:48 IST" duration-ms="8231" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCartCountTest -->
+        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.qa.Tests.InventoryPageTest@58a9760d]" started-at="2023-02-08T07:58:48 IST" name="tearDownMethod" finished-at="2023-02-08T07:58:55 IST" duration-ms="7317" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyCartCountTest status=SUCCESS method=InventoryPageTest.verifyCartCountTest()[pri:0, instance:com.qa.Tests.InventoryPageTest@58a9760d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:com.qa.Tests.InventoryPageTest@58a9760d]" started-at="2023-02-08T07:58:55 IST" name="setUpMethod" finished-at="2023-02-08T07:59:09 IST" duration-ms="13573" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method signature="verifyItemAddedToCartTest()[pri:0, instance:com.qa.Tests.InventoryPageTest@58a9760d]" started-at="2023-02-08T07:59:09 IST" name="verifyItemAddedToCartTest" finished-at="2023-02-08T07:59:10 IST" duration-ms="807" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyItemAddedToCartTest -->
+        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.qa.Tests.InventoryPageTest@58a9760d]" started-at="2023-02-08T07:59:10 IST" name="tearDownMethod" finished-at="2023-02-08T07:59:18 IST" duration-ms="8154" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyItemAddedToCartTest status=SUCCESS method=InventoryPageTest.verifyItemAddedToCartTest()[pri:0, instance:com.qa.Tests.InventoryPageTest@58a9760d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:com.qa.Tests.InventoryPageTest@58a9760d]" started-at="2023-02-08T07:59:18 IST" name="setUpMethod" finished-at="2023-02-08T07:59:27 IST" duration-ms="8592" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method signature="verifyItemRemovesFromCart()[pri:0, instance:com.qa.Tests.InventoryPageTest@58a9760d]" started-at="2023-02-08T07:59:27 IST" name="verifyItemRemovesFromCart" finished-at="2023-02-08T07:59:27 IST" duration-ms="743" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyItemRemovesFromCart -->
+        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.qa.Tests.InventoryPageTest@58a9760d]" started-at="2023-02-08T07:59:27 IST" name="tearDownMethod" finished-at="2023-02-08T07:59:30 IST" duration-ms="2557" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyItemRemovesFromCart status=SUCCESS method=InventoryPageTest.verifyItemRemovesFromCart()[pri:0, instance:com.qa.Tests.InventoryPageTest@58a9760d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:com.qa.Tests.InventoryPageTest@58a9760d]" started-at="2023-02-08T07:59:30 IST" name="setUpMethod" finished-at="2023-02-08T07:59:38 IST" duration-ms="8579" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method signature="verifyPriceLowToHighDropdownOptionTest()[pri:0, instance:com.qa.Tests.InventoryPageTest@58a9760d]" started-at="2023-02-08T07:59:38 IST" name="verifyPriceLowToHighDropdownOptionTest" finished-at="2023-02-08T07:59:39 IST" duration-ms="832" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPriceLowToHighDropdownOptionTest -->
+        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.qa.Tests.InventoryPageTest@58a9760d]" started-at="2023-02-08T07:59:39 IST" name="tearDownMethod" finished-at="2023-02-08T07:59:43 IST" duration-ms="3937" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyPriceLowToHighDropdownOptionTest status=SUCCESS method=InventoryPageTest.verifyPriceLowToHighDropdownOptionTest()[pri:0, instance:com.qa.Tests.InventoryPageTest@58a9760d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+      </class> <!-- com.qa.Tests.InventoryPageTest -->
+      <class name="com.qa.Tests.LoginPageTest">
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:com.qa.Tests.LoginPageTest@71e9ddb4]" started-at="2023-02-08T07:59:43 IST" name="setUpMethod" finished-at="2023-02-08T07:59:50 IST" duration-ms="7021" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method signature="verifyBoatLogoTest()[pri:0, instance:com.qa.Tests.LoginPageTest@71e9ddb4]" started-at="2023-02-08T07:59:50 IST" name="verifyBoatLogoTest" finished-at="2023-02-08T07:59:50 IST" duration-ms="64" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBoatLogoTest -->
+        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.qa.Tests.LoginPageTest@71e9ddb4]" started-at="2023-02-08T07:59:50 IST" name="tearDownMethod" finished-at="2023-02-08T07:59:52 IST" duration-ms="1471" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyBoatLogoTest status=SUCCESS method=LoginPageTest.verifyBoatLogoTest()[pri:0, instance:com.qa.Tests.LoginPageTest@71e9ddb4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:com.qa.Tests.LoginPageTest@71e9ddb4]" started-at="2023-02-08T07:59:52 IST" name="setUpMethod" finished-at="2023-02-08T07:59:59 IST" duration-ms="6785" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method signature="verifyErrorMessageForPassword()[pri:0, instance:com.qa.Tests.LoginPageTest@71e9ddb4]" started-at="2023-02-08T07:59:59 IST" name="verifyErrorMessageForPassword" finished-at="2023-02-08T08:00:06 IST" duration-ms="7136" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Error message : Epic sadface: Password is required]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyErrorMessageForPassword -->
+        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.qa.Tests.LoginPageTest@71e9ddb4]" started-at="2023-02-08T08:00:06 IST" name="tearDownMethod" finished-at="2023-02-08T08:00:07 IST" duration-ms="1191" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyErrorMessageForPassword status=SUCCESS method=LoginPageTest.verifyErrorMessageForPassword()[pri:0, instance:com.qa.Tests.LoginPageTest@71e9ddb4] output=Error message : Epic sadface: Password is required]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:com.qa.Tests.LoginPageTest@71e9ddb4]" started-at="2023-02-08T08:00:07 IST" name="setUpMethod" finished-at="2023-02-08T08:00:15 IST" duration-ms="7753" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method signature="verifyErrorMessageForUsername()[pri:0, instance:com.qa.Tests.LoginPageTest@71e9ddb4]" started-at="2023-02-08T08:00:15 IST" name="verifyErrorMessageForUsername" finished-at="2023-02-08T08:00:15 IST" duration-ms="429" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Error message : Epic sadface: Username is required]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyErrorMessageForUsername -->
+        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.qa.Tests.LoginPageTest@71e9ddb4]" started-at="2023-02-08T08:00:15 IST" name="tearDownMethod" finished-at="2023-02-08T08:00:16 IST" duration-ms="1019" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyErrorMessageForUsername status=SUCCESS method=LoginPageTest.verifyErrorMessageForUsername()[pri:0, instance:com.qa.Tests.LoginPageTest@71e9ddb4] output=Error message : Epic sadface: Username is required]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:com.qa.Tests.LoginPageTest@71e9ddb4]" started-at="2023-02-08T08:00:16 IST" name="setUpMethod" finished-at="2023-02-08T08:00:23 IST" duration-ms="7155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method signature="verifyErrorMessageForWrongCredentials()[pri:0, instance:com.qa.Tests.LoginPageTest@71e9ddb4]" started-at="2023-02-08T08:00:23 IST" name="verifyErrorMessageForWrongCredentials" finished-at="2023-02-08T08:00:24 IST" duration-ms="357" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Error message : Epic sadface: Username and password do not match any user in this service]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyErrorMessageForWrongCredentials -->
+        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.qa.Tests.LoginPageTest@71e9ddb4]" started-at="2023-02-08T08:00:24 IST" name="tearDownMethod" finished-at="2023-02-08T08:00:25 IST" duration-ms="1369" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyErrorMessageForWrongCredentials status=SUCCESS method=LoginPageTest.verifyErrorMessageForWrongCredentials()[pri:0, instance:com.qa.Tests.LoginPageTest@71e9ddb4] output=Error message : Epic sadface: Username and password do not match any user in this service]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:com.qa.Tests.LoginPageTest@71e9ddb4]" started-at="2023-02-08T08:00:25 IST" name="setUpMethod" finished-at="2023-02-08T08:00:34 IST" duration-ms="8561" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method signature="verifyLogin()[pri:0, instance:com.qa.Tests.LoginPageTest@71e9ddb4]" started-at="2023-02-08T08:00:34 IST" name="verifyLogin" finished-at="2023-02-08T08:00:37 IST" duration-ms="3059" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.qa.Tests.LoginPageTest@71e9ddb4]" started-at="2023-02-08T08:00:37 IST" name="tearDownMethod" finished-at="2023-02-08T08:00:40 IST" duration-ms="3029" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLogin status=SUCCESS method=LoginPageTest.verifyLogin()[pri:0, instance:com.qa.Tests.LoginPageTest@71e9ddb4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:com.qa.Tests.LoginPageTest@71e9ddb4]" started-at="2023-02-08T08:00:40 IST" name="setUpMethod" finished-at="2023-02-08T08:00:48 IST" duration-ms="7916" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method signature="verifyLoginPageTitle()[pri:0, instance:com.qa.Tests.LoginPageTest@71e9ddb4]" started-at="2023-02-08T08:00:48 IST" name="verifyLoginPageTitle" finished-at="2023-02-08T08:00:48 IST" duration-ms="187" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Login page Title : Swag Labs]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageTitle -->
+        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.qa.Tests.LoginPageTest@71e9ddb4]" started-at="2023-02-08T08:00:48 IST" name="tearDownMethod" finished-at="2023-02-08T08:00:49 IST" duration-ms="1029" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLoginPageTitle status=SUCCESS method=LoginPageTest.verifyLoginPageTitle()[pri:0, instance:com.qa.Tests.LoginPageTest@71e9ddb4] output=Login page Title : Swag Labs]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:com.qa.Tests.LoginPageTest@71e9ddb4]" started-at="2023-02-08T08:00:49 IST" name="setUpMethod" finished-at="2023-02-08T08:00:55 IST" duration-ms="6514" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method signature="verifyLoginPageURL()[pri:0, instance:com.qa.Tests.LoginPageTest@71e9ddb4]" started-at="2023-02-08T08:00:55 IST" name="verifyLoginPageURL" finished-at="2023-02-08T08:00:56 IST" duration-ms="254" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Login page URL : https://www.saucedemo.com/]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageURL -->
+        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.qa.Tests.LoginPageTest@71e9ddb4]" started-at="2023-02-08T08:00:56 IST" name="tearDownMethod" finished-at="2023-02-08T08:00:57 IST" duration-ms="1770" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLoginPageURL status=SUCCESS method=LoginPageTest.verifyLoginPageURL()[pri:0, instance:com.qa.Tests.LoginPageTest@71e9ddb4] output=Login page URL : https://www.saucedemo.com/]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:com.qa.Tests.LoginPageTest@71e9ddb4]" started-at="2023-02-08T08:00:57 IST" name="setUpMethod" finished-at="2023-02-08T08:01:05 IST" duration-ms="8137" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method signature="verifyUsername()[pri:0, instance:com.qa.Tests.LoginPageTest@71e9ddb4]" started-at="2023-02-08T08:01:05 IST" name="verifyUsername" finished-at="2023-02-08T08:01:06 IST" duration-ms="176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUsername -->
+        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.qa.Tests.LoginPageTest@71e9ddb4]" started-at="2023-02-08T08:01:06 IST" name="tearDownMethod" finished-at="2023-02-08T08:01:12 IST" duration-ms="6509" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyUsername status=SUCCESS method=LoginPageTest.verifyUsername()[pri:0, instance:com.qa.Tests.LoginPageTest@71e9ddb4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:com.qa.Tests.LoginPageTest@71e9ddb4]" started-at="2023-02-08T08:01:12 IST" name="setUpMethod" finished-at="2023-02-08T08:01:23 IST" duration-ms="10366" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method signature="verifyPassword()[pri:0, instance:com.qa.Tests.LoginPageTest@71e9ddb4]" started-at="2023-02-08T08:01:23 IST" name="verifyPassword" finished-at="2023-02-08T08:01:23 IST" duration-ms="168" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPassword -->
+        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.qa.Tests.LoginPageTest@71e9ddb4]" started-at="2023-02-08T08:01:23 IST" name="tearDownMethod" finished-at="2023-02-08T08:01:24 IST" duration-ms="949" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyPassword status=SUCCESS method=LoginPageTest.verifyPassword()[pri:0, instance:com.qa.Tests.LoginPageTest@71e9ddb4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:com.qa.Tests.LoginPageTest@71e9ddb4]" started-at="2023-02-08T08:01:24 IST" name="setUpMethod" finished-at="2023-02-08T08:01:32 IST" duration-ms="8272" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method signature="verifyLoginLogoTest()[pri:0, instance:com.qa.Tests.LoginPageTest@71e9ddb4]" started-at="2023-02-08T08:01:32 IST" name="verifyLoginLogoTest" finished-at="2023-02-08T08:01:32 IST" depends-on-methods="com.qa.Tests.LoginPageTest.verifyLogin" duration-ms="67" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginLogoTest -->
+        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.qa.Tests.LoginPageTest@71e9ddb4]" started-at="2023-02-08T08:01:32 IST" name="tearDownMethod" finished-at="2023-02-08T08:01:37 IST" duration-ms="4584" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLoginLogoTest status=SUCCESS method=LoginPageTest.verifyLoginLogoTest()[pri:0, instance:com.qa.Tests.LoginPageTest@71e9ddb4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+      </class> <!-- com.qa.Tests.LoginPageTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

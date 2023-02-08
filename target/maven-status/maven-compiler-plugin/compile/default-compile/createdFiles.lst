@@ -1,0 +1,7 @@
+com\Utility\ReadData.class
+com\qa\Pages\LoginPage.class
+com\qa\Pages\InventoryPage.class
+com\qa\BasePages\Page.class
+com\qa\Pages\CartPage.class
+com\Utility\UtilityMethods.class
+com\qa\BasePages\BasePage.class

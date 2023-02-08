@@ -1,158 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="10" passed="7" failed="2" skipped="1">
+<testng-results ignored="9" total="10" passed="0" failed="1" skipped="0">
   <reporter-output>
-    <line>
-      <![CDATA[Error message : Epic sadface: Password is required]]>
-    </line>
-    <line>
-      <![CDATA[Error message : Epic sadface: Username and password do not match any user in this service]]>
-    </line>
-    <line>
-      <![CDATA[Login page Title : Swag Labs]]>
-    </line>
-    <line>
-      <![CDATA[Login page URL : https://www.saucedemo.com/]]>
-    </line>
   </reporter-output>
-  <suite started-at="2023-01-26T16:51:28 IST" name="Default suite" finished-at="2023-01-26T16:56:34 IST" duration-ms="306560">
+  <suite started-at="2023-02-07T21:04:14 IST" name="Default suite" finished-at="2023-02-07T21:04:36 IST" duration-ms="22585">
     <groups>
     </groups>
-    <test started-at="2023-01-26T16:51:28 IST" name="Default test" finished-at="2023-01-26T16:56:34 IST" duration-ms="306560">
+    <test started-at="2023-02-07T21:04:14 IST" name="Default test" finished-at="2023-02-07T21:04:36 IST" duration-ms="22585">
       <class name="com.qa.Tests.LoginPageTest">
-        <test-method is-config="true" signature="startReport()[pri:0, instance:com.qa.Tests.LoginPageTest@57af006c]" started-at="2023-01-26T16:51:28 IST" name="startReport" finished-at="2023-01-26T16:51:28 IST" duration-ms="465" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startReport -->
-        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:com.qa.Tests.LoginPageTest@57af006c]" started-at="2023-01-26T16:51:28 IST" name="setUpMethod" finished-at="2023-01-26T16:52:22 IST" duration-ms="53488" status="PASS">
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:com.qa.Tests.LoginPageTest@29d89d5d]" started-at="2023-02-07T21:04:14 IST" name="setUpMethod" finished-at="2023-02-07T21:04:30 IST" duration-ms="15841" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpMethod -->
-        <test-method signature="verifyBoatLogoTest()[pri:0, instance:com.qa.Tests.LoginPageTest@57af006c]" started-at="2023-01-26T16:52:22 IST" name="verifyBoatLogoTest" finished-at="2023-01-26T16:52:23 IST" duration-ms="1815" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyBoatLogoTest -->
-        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.qa.Tests.LoginPageTest@57af006c]" started-at="2023-01-26T16:52:23 IST" name="tearDownMethod" finished-at="2023-01-26T16:52:32 IST" duration-ms="8587" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyBoatLogoTest status=SUCCESS method=LoginPageTest.verifyBoatLogoTest()[pri:0, instance:com.qa.Tests.LoginPageTest@57af006c] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownMethod -->
-        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:com.qa.Tests.LoginPageTest@57af006c]" started-at="2023-01-26T16:52:32 IST" name="setUpMethod" finished-at="2023-01-26T16:52:58 IST" duration-ms="25754" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpMethod -->
-        <test-method signature="verifyErrorMessageForPassword()[pri:0, instance:com.qa.Tests.LoginPageTest@57af006c]" started-at="2023-01-26T16:52:58 IST" name="verifyErrorMessageForPassword" finished-at="2023-01-26T16:53:07 IST" duration-ms="9416" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Error message : Epic sadface: Password is required]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- verifyErrorMessageForPassword -->
-        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.qa.Tests.LoginPageTest@57af006c]" started-at="2023-01-26T16:53:07 IST" name="tearDownMethod" finished-at="2023-01-26T16:53:10 IST" duration-ms="2707" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyErrorMessageForPassword status=SUCCESS method=LoginPageTest.verifyErrorMessageForPassword()[pri:0, instance:com.qa.Tests.LoginPageTest@57af006c] output=Error message : Epic sadface: Password is required]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownMethod -->
-        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:com.qa.Tests.LoginPageTest@57af006c]" started-at="2023-01-26T16:53:10 IST" name="setUpMethod" finished-at="2023-01-26T16:53:44 IST" duration-ms="34465" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpMethod -->
-        <test-method signature="verifyErrorMessageForUsername()[pri:0, instance:com.qa.Tests.LoginPageTest@57af006c]" started-at="2023-01-26T16:53:44 IST" name="verifyErrorMessageForUsername" finished-at="2023-01-26T16:53:49 IST" duration-ms="4220" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [Epic sadface: Password is required] but found [Epic sadface: Username is required]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [Epic sadface: Password is required] but found [Epic sadface: Username is required]
-at org.testng.Assert.fail(Assert.java:97)
-at org.testng.Assert.assertEqualsImpl(Assert.java:136)
-at org.testng.Assert.assertEquals(Assert.java:118)
-at org.testng.Assert.assertEquals(Assert.java:575)
-at org.testng.Assert.assertEquals(Assert.java:585)
-at com.qa.Tests.LoginPageTest.verifyErrorMessageForUsername(LoginPageTest.java:74)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-at org.testng.TestRunner.privateRun(TestRunner.java:770)
-at org.testng.TestRunner.run(TestRunner.java:591)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
-at org.testng.SuiteRunner.run(SuiteRunner.java:304)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
-at org.testng.TestNG.runSuites(TestNG.java:1032)
-at org.testng.TestNG.run(TestNG.java:1000)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyErrorMessageForUsername -->
-        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.qa.Tests.LoginPageTest@57af006c]" started-at="2023-01-26T16:53:49 IST" name="tearDownMethod" finished-at="2023-01-26T16:53:53 IST" duration-ms="3906" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyErrorMessageForUsername status=FAILURE method=LoginPageTest.verifyErrorMessageForUsername()[pri:0, instance:com.qa.Tests.LoginPageTest@57af006c] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownMethod -->
-        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:com.qa.Tests.LoginPageTest@57af006c]" started-at="2023-01-26T16:53:53 IST" name="setUpMethod" finished-at="2023-01-26T16:54:46 IST" duration-ms="52986" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpMethod -->
-        <test-method signature="verifyErrorMessageForWrongCredentials()[pri:0, instance:com.qa.Tests.LoginPageTest@57af006c]" started-at="2023-01-26T16:54:46 IST" name="verifyErrorMessageForWrongCredentials" finished-at="2023-01-26T16:54:54 IST" duration-ms="8858" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Error message : Epic sadface: Username and password do not match any user in this service]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- verifyErrorMessageForWrongCredentials -->
-        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.qa.Tests.LoginPageTest@57af006c]" started-at="2023-01-26T16:54:54 IST" name="tearDownMethod" finished-at="2023-01-26T16:55:04 IST" duration-ms="9439" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyErrorMessageForWrongCredentials status=SUCCESS method=LoginPageTest.verifyErrorMessageForWrongCredentials()[pri:0, instance:com.qa.Tests.LoginPageTest@57af006c] output=Error message : Epic sadface: Username and password do not match any user in this service]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownMethod -->
-        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:com.qa.Tests.LoginPageTest@57af006c]" started-at="2023-01-26T16:55:04 IST" name="setUpMethod" finished-at="2023-01-26T16:55:21 IST" duration-ms="16786" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpMethod -->
-        <test-method signature="verifyLogin()[pri:0, instance:com.qa.Tests.LoginPageTest@57af006c]" started-at="2023-01-26T16:55:21 IST" name="verifyLogin" finished-at="2023-01-26T16:55:21 IST" duration-ms="325" status="FAIL">
+        <test-method signature="verifyLogin()[pri:0, instance:com.qa.Tests.LoginPageTest@29d89d5d]" started-at="2023-02-07T21:04:30 IST" name="verifyLogin" finished-at="2023-02-07T21:04:30 IST" duration-ms="320" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[The following asserts failed:
@@ -163,7 +22,7 @@ did not expect to find [true] but found [false]]]>
 did not expect to find [true] but found [false]
 at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
 at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
-at com.qa.Tests.LoginPageTest.verifyLogin(LoginPageTest.java:36)
+at com.qa.Tests.LoginPageTest.verifyLogin(LoginPageTest.java:33)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -198,131 +57,17 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLogin -->
-        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.qa.Tests.LoginPageTest@57af006c]" started-at="2023-01-26T16:55:21 IST" name="tearDownMethod" finished-at="2023-01-26T16:55:34 IST" duration-ms="12519" status="PASS">
+        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.qa.Tests.LoginPageTest@29d89d5d]" started-at="2023-02-07T21:04:30 IST" name="tearDownMethod" finished-at="2023-02-07T21:04:36 IST" duration-ms="6365" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyLogin status=FAILURE method=LoginPageTest.verifyLogin()[pri:0, instance:com.qa.Tests.LoginPageTest@57af006c] output={null}]]]>
+                <![CDATA[[TestResult name=verifyLogin status=FAILURE method=LoginPageTest.verifyLogin()[pri:0, instance:com.qa.Tests.LoginPageTest@29d89d5d] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownMethod -->
-        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:com.qa.Tests.LoginPageTest@57af006c]" started-at="2023-01-26T16:55:34 IST" name="setUpMethod" finished-at="2023-01-26T16:55:46 IST" duration-ms="12777" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpMethod -->
-        <test-method signature="verifyLoginPageTitle()[pri:0, instance:com.qa.Tests.LoginPageTest@57af006c]" started-at="2023-01-26T16:55:46 IST" name="verifyLoginPageTitle" finished-at="2023-01-26T16:55:50 IST" duration-ms="3644" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Login page Title : Swag Labs]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- verifyLoginPageTitle -->
-        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.qa.Tests.LoginPageTest@57af006c]" started-at="2023-01-26T16:55:50 IST" name="tearDownMethod" finished-at="2023-01-26T16:55:51 IST" duration-ms="1437" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyLoginPageTitle status=SUCCESS method=LoginPageTest.verifyLoginPageTitle()[pri:0, instance:com.qa.Tests.LoginPageTest@57af006c] output=Login page Title : Swag Labs]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownMethod -->
-        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:com.qa.Tests.LoginPageTest@57af006c]" started-at="2023-01-26T16:55:51 IST" name="setUpMethod" finished-at="2023-01-26T16:56:06 IST" duration-ms="14370" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpMethod -->
-        <test-method signature="verifyLoginPageURL()[pri:0, instance:com.qa.Tests.LoginPageTest@57af006c]" started-at="2023-01-26T16:56:06 IST" name="verifyLoginPageURL" finished-at="2023-01-26T16:56:06 IST" duration-ms="446" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Login page URL : https://www.saucedemo.com/]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- verifyLoginPageURL -->
-        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.qa.Tests.LoginPageTest@57af006c]" started-at="2023-01-26T16:56:06 IST" name="tearDownMethod" finished-at="2023-01-26T16:56:07 IST" duration-ms="587" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyLoginPageURL status=SUCCESS method=LoginPageTest.verifyLoginPageURL()[pri:0, instance:com.qa.Tests.LoginPageTest@57af006c] output=Login page URL : https://www.saucedemo.com/]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownMethod -->
-        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:com.qa.Tests.LoginPageTest@57af006c]" started-at="2023-01-26T16:56:07 IST" name="setUpMethod" finished-at="2023-01-26T16:56:18 IST" duration-ms="11037" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpMethod -->
-        <test-method signature="verifyUsername()[pri:0, instance:com.qa.Tests.LoginPageTest@57af006c]" started-at="2023-01-26T16:56:18 IST" name="verifyUsername" finished-at="2023-01-26T16:56:19 IST" duration-ms="826" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyUsername -->
-        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.qa.Tests.LoginPageTest@57af006c]" started-at="2023-01-26T16:56:19 IST" name="tearDownMethod" finished-at="2023-01-26T16:56:19 IST" duration-ms="582" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyUsername status=SUCCESS method=LoginPageTest.verifyUsername()[pri:0, instance:com.qa.Tests.LoginPageTest@57af006c] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownMethod -->
-        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:com.qa.Tests.LoginPageTest@57af006c]" started-at="2023-01-26T16:56:19 IST" name="setUpMethod" finished-at="2023-01-26T16:56:33 IST" duration-ms="14062" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpMethod -->
-        <test-method signature="verifyPassword()[pri:0, instance:com.qa.Tests.LoginPageTest@57af006c]" started-at="2023-01-26T16:56:33 IST" name="verifyPassword" finished-at="2023-01-26T16:56:34 IST" duration-ms="160" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyPassword -->
-        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.qa.Tests.LoginPageTest@57af006c]" started-at="2023-01-26T16:56:34 IST" name="tearDownMethod" finished-at="2023-01-26T16:56:34 IST" duration-ms="568" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyPassword status=SUCCESS method=LoginPageTest.verifyPassword()[pri:0, instance:com.qa.Tests.LoginPageTest@57af006c] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownMethod -->
-        <test-method signature="verifyLoginLogoTest()[pri:0, instance:com.qa.Tests.LoginPageTest@57af006c]" started-at="2023-01-26T16:56:34 IST" name="verifyLoginLogoTest" finished-at="2023-01-26T16:56:34 IST" depends-on-methods="com.qa.Tests.LoginPageTest.verifyLogin" duration-ms="1" status="SKIP">
-          <exception class="java.lang.Throwable">
-            <message>
-              <![CDATA[Method LoginPageTest.verifyLoginLogoTest()[pri:0, instance:com.qa.Tests.LoginPageTest@57af006c] depends on not successfully finished methods]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method LoginPageTest.verifyLoginLogoTest()[pri:0, instance:com.qa.Tests.LoginPageTest@57af006c] depends on not successfully finished methods
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:99)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-at org.testng.TestRunner.privateRun(TestRunner.java:770)
-at org.testng.TestRunner.run(TestRunner.java:591)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
-at org.testng.SuiteRunner.run(SuiteRunner.java:304)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
-at org.testng.TestNG.runSuites(TestNG.java:1032)
-at org.testng.TestNG.run(TestNG.java:1000)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Throwable -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLoginLogoTest -->
       </class> <!-- com.qa.Tests.LoginPageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
