@@ -101,10 +101,10 @@ public class UtilityMethods {
 	 */
 	public  static String screenshot(WebDriver driver, String name) throws Exception {
 		TakesScreenshot ts = (TakesScreenshot) driver;
-		File address = new File("C:\\Users\\HP\\eclipse-workspace\\SwagLab\\Screenshots/" + name + ".jpeg");
+		File address = new File(".\\Screenshots/" + name + ".jpeg");
 		File source = ts.getScreenshotAs(OutputType.FILE);
 		FileHandler.copy(source, address);
-		return "C:\\Users\\HP\\eclipse-workspace\\SwagLab\\Screenshots/" + name;
+		return ".\\Screenshots/" + name;
 
 	}
 }

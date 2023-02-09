@@ -3,13 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.qa.Tests.LoginPageTest">
+      <class name="com.qa.Tests.InventoryPageTest">
         <methods>
           <include name="setUpMethod"/>
-          <include name="verifyLogin"/>
+          <include name="verifyItemAddedToCartTest"/>
+          <include name="verifyItemRemovesFromCart"/>
+          <include name="verifyPriceLowToHighDropdownOptionTest"/>
           <include name="tearDownMethod"/>
         </methods>
-      </class> <!-- com.qa.Tests.LoginPageTest -->
+      </class> <!-- com.qa.Tests.InventoryPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
