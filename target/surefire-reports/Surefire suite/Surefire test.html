@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Surefire test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>2/0/12</td>
+<td>Tests passed/Failed/Skipped:</td><td>14/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Feb 09 12:33:32 IST 2023</td>
+<td>Started on:</td><td>Sat Feb 11 16:26:35 IST 2023</td>
 </tr>
-<tr><td>Total time:</td><td>45 seconds (45748 ms)</td>
+<tr><td>Total time:</td><td>275 seconds (275493 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,258 +67,6 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='com.qa.Tests.InventoryPageTest.tearDownMethod()'><b>tearDownMethod</b><br>Test class: com.qa.Tests.InventoryPageTest<br>Parameters: [TestResult name=verifyCartCountTest status=SUCCESS method=InventoryPageTest.verifyCartCountTest()[pri:0, instance:com.qa.Tests.InventoryPageTest@13b6aecc] output={null}]</td>
-<td><div><pre>java.io.FileNotFoundException: C:\Users\HP\eclipse-workspace\SwagLab\Screenshots\verifyCartCountTest.jpeg (The system cannot find the path specified)
-	at java.base/java.io.FileOutputStream.open0(Native Method)
-	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:298)
-	at java.base/java.io.FileOutputStream.&lt;init&gt;(FileOutputStream.java:237)
-	at java.base/java.io.FileOutputStream.&lt;init&gt;(FileOutputStream.java:187)
-	at org.openqa.selenium.io.FileHandler.copyFile(FileHandler.java:136)
-	at org.openqa.selenium.io.FileHandler.copy(FileHandler.java:115)
-	at com.Utility.UtilityMethods.screenshot(UtilityMethods.java:106)
-	at com.qa.Tests.BaseTest.tearDownMethod(BaseTest.java:55)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-... Removed 37 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace424106351", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace424106351'><pre>java.io.FileNotFoundException: C:\Users\HP\eclipse-workspace\SwagLab\Screenshots\verifyCartCountTest.jpeg (The system cannot find the path specified)
-	at java.base/java.io.FileOutputStream.open0(Native Method)
-	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:298)
-	at java.base/java.io.FileOutputStream.&lt;init&gt;(FileOutputStream.java:237)
-	at java.base/java.io.FileOutputStream.&lt;init&gt;(FileOutputStream.java:187)
-	at org.openqa.selenium.io.FileHandler.copyFile(FileHandler.java:136)
-	at org.openqa.selenium.io.FileHandler.copy(FileHandler.java:115)
-	at com.Utility.UtilityMethods.screenshot(UtilityMethods.java:106)
-	at com.qa.Tests.BaseTest.tearDownMethod(BaseTest.java:55)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
-	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:340)
-	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:294)
-	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:683)
-	at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:658)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:642)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-	at org.testng.TestRunner.privateRun(TestRunner.java:770)
-	at org.testng.TestRunner.run(TestRunner.java:591)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
-	at org.testng.TestNG.runSuites(TestNG.java:1032)
-	at org.testng.TestNG.run(TestNG.java:1000)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:151)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:192)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:93)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:155)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
-</pre></div></td>
-<td>1</td>
-<td>com.qa.Tests.InventoryPageTest@13b6aecc</td></tr>
-<tr>
-<td title='com.qa.Tests.LoginPageTest.tearDownMethod()'><b>tearDownMethod</b><br>Test class: com.qa.Tests.LoginPageTest<br>Parameters: [TestResult name=verifyBoatLogoTest status=SUCCESS method=LoginPageTest.verifyBoatLogoTest()[pri:0, instance:com.qa.Tests.LoginPageTest@158a8276] output={null}]</td>
-<td><div><pre>java.io.FileNotFoundException: C:\Users\HP\eclipse-workspace\SwagLab\Screenshots\verifyBoatLogoTest.jpeg (The system cannot find the path specified)
-	at java.base/java.io.FileOutputStream.open0(Native Method)
-	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:298)
-	at java.base/java.io.FileOutputStream.&lt;init&gt;(FileOutputStream.java:237)
-	at java.base/java.io.FileOutputStream.&lt;init&gt;(FileOutputStream.java:187)
-	at org.openqa.selenium.io.FileHandler.copyFile(FileHandler.java:136)
-	at org.openqa.selenium.io.FileHandler.copy(FileHandler.java:115)
-	at com.Utility.UtilityMethods.screenshot(UtilityMethods.java:106)
-	at com.qa.Tests.BaseTest.tearDownMethod(BaseTest.java:55)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-... Removed 37 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1014565006", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1014565006'><pre>java.io.FileNotFoundException: C:\Users\HP\eclipse-workspace\SwagLab\Screenshots\verifyBoatLogoTest.jpeg (The system cannot find the path specified)
-	at java.base/java.io.FileOutputStream.open0(Native Method)
-	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:298)
-	at java.base/java.io.FileOutputStream.&lt;init&gt;(FileOutputStream.java:237)
-	at java.base/java.io.FileOutputStream.&lt;init&gt;(FileOutputStream.java:187)
-	at org.openqa.selenium.io.FileHandler.copyFile(FileHandler.java:136)
-	at org.openqa.selenium.io.FileHandler.copy(FileHandler.java:115)
-	at com.Utility.UtilityMethods.screenshot(UtilityMethods.java:106)
-	at com.qa.Tests.BaseTest.tearDownMethod(BaseTest.java:55)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
-	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:340)
-	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:294)
-	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:683)
-	at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:658)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:642)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-	at org.testng.TestRunner.privateRun(TestRunner.java:770)
-	at org.testng.TestRunner.run(TestRunner.java:591)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
-	at org.testng.TestNG.runSuites(TestNG.java:1032)
-	at org.testng.TestNG.run(TestNG.java:1000)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:151)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:192)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:93)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:155)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
-</pre></div></td>
-<td>0</td>
-<td>com.qa.Tests.LoginPageTest@158a8276</td></tr>
-</table><p>
-<table width='100%' border='1' class='invocation-skipped'>
-<tr><td colspan='4' align='center'><b>SKIPPED CONFIGURATIONS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='com.qa.Tests.InventoryPageTest.setUpMethod()'><b>setUpMethod</b><br>Test class: com.qa.Tests.InventoryPageTest</td>
-<td></td>
-<td>-1675926240</td>
-<td>com.qa.Tests.InventoryPageTest@13b6aecc</td></tr>
-<tr>
-<td title='com.qa.Tests.InventoryPageTest.setUpMethod()'><b>setUpMethod</b><br>Test class: com.qa.Tests.InventoryPageTest</td>
-<td></td>
-<td>-1675926240</td>
-<td>com.qa.Tests.InventoryPageTest@13b6aecc</td></tr>
-<tr>
-<td title='com.qa.Tests.InventoryPageTest.setUpMethod()'><b>setUpMethod</b><br>Test class: com.qa.Tests.InventoryPageTest</td>
-<td></td>
-<td>-1675926240</td>
-<td>com.qa.Tests.InventoryPageTest@13b6aecc</td></tr>
-<tr>
-<td title='com.qa.Tests.LoginPageTest.setUpMethod()'><b>setUpMethod</b><br>Test class: com.qa.Tests.LoginPageTest</td>
-<td></td>
-<td>-1675926257</td>
-<td>com.qa.Tests.LoginPageTest@158a8276</td></tr>
-<tr>
-<td title='com.qa.Tests.LoginPageTest.setUpMethod()'><b>setUpMethod</b><br>Test class: com.qa.Tests.LoginPageTest</td>
-<td></td>
-<td>-1675926257</td>
-<td>com.qa.Tests.LoginPageTest@158a8276</td></tr>
-<tr>
-<td title='com.qa.Tests.LoginPageTest.setUpMethod()'><b>setUpMethod</b><br>Test class: com.qa.Tests.LoginPageTest</td>
-<td></td>
-<td>-1675926257</td>
-<td>com.qa.Tests.LoginPageTest@158a8276</td></tr>
-<tr>
-<td title='com.qa.Tests.LoginPageTest.setUpMethod()'><b>setUpMethod</b><br>Test class: com.qa.Tests.LoginPageTest</td>
-<td></td>
-<td>-1675926257</td>
-<td>com.qa.Tests.LoginPageTest@158a8276</td></tr>
-<tr>
-<td title='com.qa.Tests.LoginPageTest.setUpMethod()'><b>setUpMethod</b><br>Test class: com.qa.Tests.LoginPageTest</td>
-<td></td>
-<td>-1675926257</td>
-<td>com.qa.Tests.LoginPageTest@158a8276</td></tr>
-<tr>
-<td title='com.qa.Tests.LoginPageTest.setUpMethod()'><b>setUpMethod</b><br>Test class: com.qa.Tests.LoginPageTest</td>
-<td></td>
-<td>-1675926257</td>
-<td>com.qa.Tests.LoginPageTest@158a8276</td></tr>
-<tr>
-<td title='com.qa.Tests.LoginPageTest.setUpMethod()'><b>setUpMethod</b><br>Test class: com.qa.Tests.LoginPageTest</td>
-<td></td>
-<td>-1675926257</td>
-<td>com.qa.Tests.LoginPageTest@158a8276</td></tr>
-<tr>
-<td title='com.qa.Tests.LoginPageTest.setUpMethod()'><b>setUpMethod</b><br>Test class: com.qa.Tests.LoginPageTest</td>
-<td></td>
-<td>-1675926257</td>
-<td>com.qa.Tests.LoginPageTest@158a8276</td></tr>
-<tr>
-<td title='com.qa.Tests.InventoryPageTest.tearDownMethod()'><b>tearDownMethod</b><br>Test class: com.qa.Tests.InventoryPageTest</td>
-<td></td>
-<td>-1675926240</td>
-<td>com.qa.Tests.InventoryPageTest@13b6aecc</td></tr>
-<tr>
-<td title='com.qa.Tests.InventoryPageTest.tearDownMethod()'><b>tearDownMethod</b><br>Test class: com.qa.Tests.InventoryPageTest</td>
-<td></td>
-<td>-1675926240</td>
-<td>com.qa.Tests.InventoryPageTest@13b6aecc</td></tr>
-<tr>
-<td title='com.qa.Tests.InventoryPageTest.tearDownMethod()'><b>tearDownMethod</b><br>Test class: com.qa.Tests.InventoryPageTest</td>
-<td></td>
-<td>-1675926240</td>
-<td>com.qa.Tests.InventoryPageTest@13b6aecc</td></tr>
-<tr>
-<td title='com.qa.Tests.LoginPageTest.tearDownMethod()'><b>tearDownMethod</b><br>Test class: com.qa.Tests.LoginPageTest</td>
-<td></td>
-<td>-1675926257</td>
-<td>com.qa.Tests.LoginPageTest@158a8276</td></tr>
-<tr>
-<td title='com.qa.Tests.LoginPageTest.tearDownMethod()'><b>tearDownMethod</b><br>Test class: com.qa.Tests.LoginPageTest</td>
-<td></td>
-<td>-1675926257</td>
-<td>com.qa.Tests.LoginPageTest@158a8276</td></tr>
-<tr>
-<td title='com.qa.Tests.LoginPageTest.tearDownMethod()'><b>tearDownMethod</b><br>Test class: com.qa.Tests.LoginPageTest</td>
-<td></td>
-<td>-1675926257</td>
-<td>com.qa.Tests.LoginPageTest@158a8276</td></tr>
-<tr>
-<td title='com.qa.Tests.LoginPageTest.tearDownMethod()'><b>tearDownMethod</b><br>Test class: com.qa.Tests.LoginPageTest</td>
-<td></td>
-<td>-1675926257</td>
-<td>com.qa.Tests.LoginPageTest@158a8276</td></tr>
-<tr>
-<td title='com.qa.Tests.LoginPageTest.tearDownMethod()'><b>tearDownMethod</b><br>Test class: com.qa.Tests.LoginPageTest</td>
-<td></td>
-<td>-1675926257</td>
-<td>com.qa.Tests.LoginPageTest@158a8276</td></tr>
-<tr>
-<td title='com.qa.Tests.LoginPageTest.tearDownMethod()'><b>tearDownMethod</b><br>Test class: com.qa.Tests.LoginPageTest</td>
-<td></td>
-<td>-1675926257</td>
-<td>com.qa.Tests.LoginPageTest@158a8276</td></tr>
-<tr>
-<td title='com.qa.Tests.LoginPageTest.tearDownMethod()'><b>tearDownMethod</b><br>Test class: com.qa.Tests.LoginPageTest</td>
-<td></td>
-<td>-1675926257</td>
-<td>com.qa.Tests.LoginPageTest@158a8276</td></tr>
-<tr>
-<td title='com.qa.Tests.LoginPageTest.tearDownMethod()'><b>tearDownMethod</b><br>Test class: com.qa.Tests.LoginPageTest</td>
-<td></td>
-<td>-1675926257</td>
-<td>com.qa.Tests.LoginPageTest@158a8276</td></tr>
-</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -330,746 +78,107 @@ function toggleAllBoxes() {
 <td title='com.qa.Tests.LoginPageTest.verifyBoatLogoTest()'><b>verifyBoatLogoTest</b><br>Test class: com.qa.Tests.LoginPageTest</td>
 <td></td>
 <td>0</td>
-<td>com.qa.Tests.LoginPageTest@158a8276</td></tr>
+<td>com.qa.Tests.LoginPageTest@65d09a04</td></tr>
 <tr>
 <td title='com.qa.Tests.InventoryPageTest.verifyCartCountTest()'><b>verifyCartCountTest</b><br>Test class: com.qa.Tests.InventoryPageTest</td>
 <td></td>
-<td>4</td>
-<td>com.qa.Tests.InventoryPageTest@13b6aecc</td></tr>
-</table><p>
-<table width='100%' border='1' class='invocation-skipped'>
-<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
+<td>9</td>
+<td>com.qa.Tests.InventoryPageTest@5aebe890</td></tr>
 <tr>
-<td title='com.qa.Tests.LoginPageTest.verifyErrorMessageForPassword()'><b>verifyErrorMessageForPassword</b><br>Test class: com.qa.Tests.LoginPageTest</td>
-<td><div><pre>java.io.FileNotFoundException: C:\Users\HP\eclipse-workspace\SwagLab\Screenshots\verifyBoatLogoTest.jpeg (The system cannot find the path specified)
-	at java.base/java.io.FileOutputStream.open0(Native Method)
-	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:298)
-	at java.base/java.io.FileOutputStream.&lt;init&gt;(FileOutputStream.java:237)
-	at java.base/java.io.FileOutputStream.&lt;init&gt;(FileOutputStream.java:187)
-	at org.openqa.selenium.io.FileHandler.copyFile(FileHandler.java:136)
-	at org.openqa.selenium.io.FileHandler.copy(FileHandler.java:115)
-	at com.Utility.UtilityMethods.screenshot(UtilityMethods.java:106)
-	at com.qa.Tests.BaseTest.tearDownMethod(BaseTest.java:55)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-... Removed 37 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace223696575", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace223696575'><pre>java.io.FileNotFoundException: C:\Users\HP\eclipse-workspace\SwagLab\Screenshots\verifyBoatLogoTest.jpeg (The system cannot find the path specified)
-	at java.base/java.io.FileOutputStream.open0(Native Method)
-	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:298)
-	at java.base/java.io.FileOutputStream.&lt;init&gt;(FileOutputStream.java:237)
-	at java.base/java.io.FileOutputStream.&lt;init&gt;(FileOutputStream.java:187)
-	at org.openqa.selenium.io.FileHandler.copyFile(FileHandler.java:136)
-	at org.openqa.selenium.io.FileHandler.copy(FileHandler.java:115)
-	at com.Utility.UtilityMethods.screenshot(UtilityMethods.java:106)
-	at com.qa.Tests.BaseTest.tearDownMethod(BaseTest.java:55)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
-	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:340)
-	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:294)
-	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:683)
-	at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:658)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:642)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-	at org.testng.TestRunner.privateRun(TestRunner.java:770)
-	at org.testng.TestRunner.run(TestRunner.java:591)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
-	at org.testng.TestNG.runSuites(TestNG.java:1032)
-	at org.testng.TestNG.run(TestNG.java:1000)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:151)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:192)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:93)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:155)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
-</pre></div></td>
-<td>0</td>
-<td>com.qa.Tests.LoginPageTest@158a8276</td></tr>
+<td title='com.qa.Tests.LoginPageTest.verifyErrorMessageForPassword()'><b>verifyErrorMessageForPassword</b><br>Test class: com.qa.Tests.LoginPageTest<br/>
+<a href="#Output-560165559" onClick='toggleBox("Output-560165559", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-560165559" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-560165559">
+Error message : Epic sadface: Password is required<br/>
+</div>
+</td>
+<td></td>
+<td>11</td>
+<td>com.qa.Tests.LoginPageTest@65d09a04</td></tr>
 <tr>
-<td title='com.qa.Tests.LoginPageTest.verifyErrorMessageForUsername()'><b>verifyErrorMessageForUsername</b><br>Test class: com.qa.Tests.LoginPageTest</td>
-<td><div><pre>java.io.FileNotFoundException: C:\Users\HP\eclipse-workspace\SwagLab\Screenshots\verifyBoatLogoTest.jpeg (The system cannot find the path specified)
-	at java.base/java.io.FileOutputStream.open0(Native Method)
-	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:298)
-	at java.base/java.io.FileOutputStream.&lt;init&gt;(FileOutputStream.java:237)
-	at java.base/java.io.FileOutputStream.&lt;init&gt;(FileOutputStream.java:187)
-	at org.openqa.selenium.io.FileHandler.copyFile(FileHandler.java:136)
-	at org.openqa.selenium.io.FileHandler.copy(FileHandler.java:115)
-	at com.Utility.UtilityMethods.screenshot(UtilityMethods.java:106)
-	at com.qa.Tests.BaseTest.tearDownMethod(BaseTest.java:55)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-... Removed 37 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace619406819", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace619406819'><pre>java.io.FileNotFoundException: C:\Users\HP\eclipse-workspace\SwagLab\Screenshots\verifyBoatLogoTest.jpeg (The system cannot find the path specified)
-	at java.base/java.io.FileOutputStream.open0(Native Method)
-	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:298)
-	at java.base/java.io.FileOutputStream.&lt;init&gt;(FileOutputStream.java:237)
-	at java.base/java.io.FileOutputStream.&lt;init&gt;(FileOutputStream.java:187)
-	at org.openqa.selenium.io.FileHandler.copyFile(FileHandler.java:136)
-	at org.openqa.selenium.io.FileHandler.copy(FileHandler.java:115)
-	at com.Utility.UtilityMethods.screenshot(UtilityMethods.java:106)
-	at com.qa.Tests.BaseTest.tearDownMethod(BaseTest.java:55)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
-	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:340)
-	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:294)
-	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:683)
-	at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:658)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:642)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-	at org.testng.TestRunner.privateRun(TestRunner.java:770)
-	at org.testng.TestRunner.run(TestRunner.java:591)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
-	at org.testng.TestNG.runSuites(TestNG.java:1032)
-	at org.testng.TestNG.run(TestNG.java:1000)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:151)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:192)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:93)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:155)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
-</pre></div></td>
+<td title='com.qa.Tests.LoginPageTest.verifyErrorMessageForUsername()'><b>verifyErrorMessageForUsername</b><br>Test class: com.qa.Tests.LoginPageTest<br/>
+<a href="#Output-605787935" onClick='toggleBox("Output-605787935", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-605787935" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-605787935">
+Error message : Epic sadface: Username is required<br/>
+</div>
+</td>
+<td></td>
 <td>0</td>
-<td>com.qa.Tests.LoginPageTest@158a8276</td></tr>
+<td>com.qa.Tests.LoginPageTest@65d09a04</td></tr>
 <tr>
-<td title='com.qa.Tests.LoginPageTest.verifyErrorMessageForWrongCredentials()'><b>verifyErrorMessageForWrongCredentials</b><br>Test class: com.qa.Tests.LoginPageTest</td>
-<td><div><pre>java.io.FileNotFoundException: C:\Users\HP\eclipse-workspace\SwagLab\Screenshots\verifyBoatLogoTest.jpeg (The system cannot find the path specified)
-	at java.base/java.io.FileOutputStream.open0(Native Method)
-	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:298)
-	at java.base/java.io.FileOutputStream.&lt;init&gt;(FileOutputStream.java:237)
-	at java.base/java.io.FileOutputStream.&lt;init&gt;(FileOutputStream.java:187)
-	at org.openqa.selenium.io.FileHandler.copyFile(FileHandler.java:136)
-	at org.openqa.selenium.io.FileHandler.copy(FileHandler.java:115)
-	at com.Utility.UtilityMethods.screenshot(UtilityMethods.java:106)
-	at com.qa.Tests.BaseTest.tearDownMethod(BaseTest.java:55)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-... Removed 37 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace418731780", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace418731780'><pre>java.io.FileNotFoundException: C:\Users\HP\eclipse-workspace\SwagLab\Screenshots\verifyBoatLogoTest.jpeg (The system cannot find the path specified)
-	at java.base/java.io.FileOutputStream.open0(Native Method)
-	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:298)
-	at java.base/java.io.FileOutputStream.&lt;init&gt;(FileOutputStream.java:237)
-	at java.base/java.io.FileOutputStream.&lt;init&gt;(FileOutputStream.java:187)
-	at org.openqa.selenium.io.FileHandler.copyFile(FileHandler.java:136)
-	at org.openqa.selenium.io.FileHandler.copy(FileHandler.java:115)
-	at com.Utility.UtilityMethods.screenshot(UtilityMethods.java:106)
-	at com.qa.Tests.BaseTest.tearDownMethod(BaseTest.java:55)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
-	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:340)
-	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:294)
-	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:683)
-	at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:658)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:642)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-	at org.testng.TestRunner.privateRun(TestRunner.java:770)
-	at org.testng.TestRunner.run(TestRunner.java:591)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
-	at org.testng.TestNG.runSuites(TestNG.java:1032)
-	at org.testng.TestNG.run(TestNG.java:1000)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:151)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:192)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:93)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:155)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
-</pre></div></td>
+<td title='com.qa.Tests.LoginPageTest.verifyErrorMessageForWrongCredentials()'><b>verifyErrorMessageForWrongCredentials</b><br>Test class: com.qa.Tests.LoginPageTest<br/>
+<a href="#Output-1256782634" onClick='toggleBox("Output-1256782634", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1256782634" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1256782634">
+Error message : Epic sadface: Username and password do not match any user in this service<br/>
+</div>
+</td>
+<td></td>
 <td>0</td>
-<td>com.qa.Tests.LoginPageTest@158a8276</td></tr>
+<td>com.qa.Tests.LoginPageTest@65d09a04</td></tr>
 <tr>
 <td title='com.qa.Tests.InventoryPageTest.verifyItemAddedToCartTest()'><b>verifyItemAddedToCartTest</b><br>Test class: com.qa.Tests.InventoryPageTest</td>
-<td><div><pre>java.io.FileNotFoundException: C:\Users\HP\eclipse-workspace\SwagLab\Screenshots\verifyCartCountTest.jpeg (The system cannot find the path specified)
-	at java.base/java.io.FileOutputStream.open0(Native Method)
-	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:298)
-	at java.base/java.io.FileOutputStream.&lt;init&gt;(FileOutputStream.java:237)
-	at java.base/java.io.FileOutputStream.&lt;init&gt;(FileOutputStream.java:187)
-	at org.openqa.selenium.io.FileHandler.copyFile(FileHandler.java:136)
-	at org.openqa.selenium.io.FileHandler.copy(FileHandler.java:115)
-	at com.Utility.UtilityMethods.screenshot(UtilityMethods.java:106)
-	at com.qa.Tests.BaseTest.tearDownMethod(BaseTest.java:55)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-... Removed 37 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1203638171", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1203638171'><pre>java.io.FileNotFoundException: C:\Users\HP\eclipse-workspace\SwagLab\Screenshots\verifyCartCountTest.jpeg (The system cannot find the path specified)
-	at java.base/java.io.FileOutputStream.open0(Native Method)
-	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:298)
-	at java.base/java.io.FileOutputStream.&lt;init&gt;(FileOutputStream.java:237)
-	at java.base/java.io.FileOutputStream.&lt;init&gt;(FileOutputStream.java:187)
-	at org.openqa.selenium.io.FileHandler.copyFile(FileHandler.java:136)
-	at org.openqa.selenium.io.FileHandler.copy(FileHandler.java:115)
-	at com.Utility.UtilityMethods.screenshot(UtilityMethods.java:106)
-	at com.qa.Tests.BaseTest.tearDownMethod(BaseTest.java:55)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
-	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:340)
-	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:294)
-	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:683)
-	at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:658)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:642)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-	at org.testng.TestRunner.privateRun(TestRunner.java:770)
-	at org.testng.TestRunner.run(TestRunner.java:591)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
-	at org.testng.TestNG.runSuites(TestNG.java:1032)
-	at org.testng.TestNG.run(TestNG.java:1000)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:151)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:192)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:93)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:155)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
-</pre></div></td>
-<td>0</td>
-<td>com.qa.Tests.InventoryPageTest@13b6aecc</td></tr>
+<td></td>
+<td>1</td>
+<td>com.qa.Tests.InventoryPageTest@5aebe890</td></tr>
 <tr>
 <td title='com.qa.Tests.InventoryPageTest.verifyItemRemovesFromCart()'><b>verifyItemRemovesFromCart</b><br>Test class: com.qa.Tests.InventoryPageTest</td>
-<td><div><pre>java.io.FileNotFoundException: C:\Users\HP\eclipse-workspace\SwagLab\Screenshots\verifyCartCountTest.jpeg (The system cannot find the path specified)
-	at java.base/java.io.FileOutputStream.open0(Native Method)
-	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:298)
-	at java.base/java.io.FileOutputStream.&lt;init&gt;(FileOutputStream.java:237)
-	at java.base/java.io.FileOutputStream.&lt;init&gt;(FileOutputStream.java:187)
-	at org.openqa.selenium.io.FileHandler.copyFile(FileHandler.java:136)
-	at org.openqa.selenium.io.FileHandler.copy(FileHandler.java:115)
-	at com.Utility.UtilityMethods.screenshot(UtilityMethods.java:106)
-	at com.qa.Tests.BaseTest.tearDownMethod(BaseTest.java:55)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-... Removed 37 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace859985937", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace859985937'><pre>java.io.FileNotFoundException: C:\Users\HP\eclipse-workspace\SwagLab\Screenshots\verifyCartCountTest.jpeg (The system cannot find the path specified)
-	at java.base/java.io.FileOutputStream.open0(Native Method)
-	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:298)
-	at java.base/java.io.FileOutputStream.&lt;init&gt;(FileOutputStream.java:237)
-	at java.base/java.io.FileOutputStream.&lt;init&gt;(FileOutputStream.java:187)
-	at org.openqa.selenium.io.FileHandler.copyFile(FileHandler.java:136)
-	at org.openqa.selenium.io.FileHandler.copy(FileHandler.java:115)
-	at com.Utility.UtilityMethods.screenshot(UtilityMethods.java:106)
-	at com.qa.Tests.BaseTest.tearDownMethod(BaseTest.java:55)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
-	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:340)
-	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:294)
-	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:683)
-	at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:658)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:642)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-	at org.testng.TestRunner.privateRun(TestRunner.java:770)
-	at org.testng.TestRunner.run(TestRunner.java:591)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
-	at org.testng.TestNG.runSuites(TestNG.java:1032)
-	at org.testng.TestNG.run(TestNG.java:1000)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:151)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:192)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:93)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:155)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
-</pre></div></td>
-<td>0</td>
-<td>com.qa.Tests.InventoryPageTest@13b6aecc</td></tr>
+<td></td>
+<td>6</td>
+<td>com.qa.Tests.InventoryPageTest@5aebe890</td></tr>
 <tr>
 <td title='com.qa.Tests.LoginPageTest.verifyLogin()'><b>verifyLogin</b><br>Test class: com.qa.Tests.LoginPageTest</td>
-<td><div><pre>java.io.FileNotFoundException: C:\Users\HP\eclipse-workspace\SwagLab\Screenshots\verifyBoatLogoTest.jpeg (The system cannot find the path specified)
-	at java.base/java.io.FileOutputStream.open0(Native Method)
-	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:298)
-	at java.base/java.io.FileOutputStream.&lt;init&gt;(FileOutputStream.java:237)
-	at java.base/java.io.FileOutputStream.&lt;init&gt;(FileOutputStream.java:187)
-	at org.openqa.selenium.io.FileHandler.copyFile(FileHandler.java:136)
-	at org.openqa.selenium.io.FileHandler.copy(FileHandler.java:115)
-	at com.Utility.UtilityMethods.screenshot(UtilityMethods.java:106)
-	at com.qa.Tests.BaseTest.tearDownMethod(BaseTest.java:55)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-... Removed 37 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1792904767", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1792904767'><pre>java.io.FileNotFoundException: C:\Users\HP\eclipse-workspace\SwagLab\Screenshots\verifyBoatLogoTest.jpeg (The system cannot find the path specified)
-	at java.base/java.io.FileOutputStream.open0(Native Method)
-	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:298)
-	at java.base/java.io.FileOutputStream.&lt;init&gt;(FileOutputStream.java:237)
-	at java.base/java.io.FileOutputStream.&lt;init&gt;(FileOutputStream.java:187)
-	at org.openqa.selenium.io.FileHandler.copyFile(FileHandler.java:136)
-	at org.openqa.selenium.io.FileHandler.copy(FileHandler.java:115)
-	at com.Utility.UtilityMethods.screenshot(UtilityMethods.java:106)
-	at com.qa.Tests.BaseTest.tearDownMethod(BaseTest.java:55)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
-	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:340)
-	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:294)
-	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:683)
-	at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:658)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:642)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-	at org.testng.TestRunner.privateRun(TestRunner.java:770)
-	at org.testng.TestRunner.run(TestRunner.java:591)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
-	at org.testng.TestNG.runSuites(TestNG.java:1032)
-	at org.testng.TestNG.run(TestNG.java:1000)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:151)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:192)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:93)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:155)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
-</pre></div></td>
-<td>0</td>
-<td>com.qa.Tests.LoginPageTest@158a8276</td></tr>
+<td></td>
+<td>3</td>
+<td>com.qa.Tests.LoginPageTest@65d09a04</td></tr>
 <tr>
 <td title='com.qa.Tests.LoginPageTest.verifyLoginLogoTest()'><b>verifyLoginLogoTest</b><br>Test class: com.qa.Tests.LoginPageTest</td>
-<td><div><pre>java.lang.Throwable: Method LoginPageTest.verifyLoginLogoTest()[pri:0, instance:com.qa.Tests.LoginPageTest@158a8276] depends on not successfully finished methods
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-... Removed 23 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace704277349", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace704277349'><pre>java.lang.Throwable: Method LoginPageTest.verifyLoginLogoTest()[pri:0, instance:com.qa.Tests.LoginPageTest@158a8276] depends on not successfully finished methods
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:99)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-	at org.testng.TestRunner.privateRun(TestRunner.java:770)
-	at org.testng.TestRunner.run(TestRunner.java:591)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
-	at org.testng.TestNG.runSuites(TestNG.java:1032)
-	at org.testng.TestNG.run(TestNG.java:1000)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:151)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:192)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:93)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:155)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
-</pre></div></td>
+<td></td>
 <td>0</td>
-<td>com.qa.Tests.LoginPageTest@158a8276</td></tr>
+<td>com.qa.Tests.LoginPageTest@65d09a04</td></tr>
 <tr>
-<td title='com.qa.Tests.LoginPageTest.verifyLoginPageTitle()'><b>verifyLoginPageTitle</b><br>Test class: com.qa.Tests.LoginPageTest</td>
-<td><div><pre>java.io.FileNotFoundException: C:\Users\HP\eclipse-workspace\SwagLab\Screenshots\verifyBoatLogoTest.jpeg (The system cannot find the path specified)
-	at java.base/java.io.FileOutputStream.open0(Native Method)
-	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:298)
-	at java.base/java.io.FileOutputStream.&lt;init&gt;(FileOutputStream.java:237)
-	at java.base/java.io.FileOutputStream.&lt;init&gt;(FileOutputStream.java:187)
-	at org.openqa.selenium.io.FileHandler.copyFile(FileHandler.java:136)
-	at org.openqa.selenium.io.FileHandler.copy(FileHandler.java:115)
-	at com.Utility.UtilityMethods.screenshot(UtilityMethods.java:106)
-	at com.qa.Tests.BaseTest.tearDownMethod(BaseTest.java:55)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-... Removed 37 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace314309716", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace314309716'><pre>java.io.FileNotFoundException: C:\Users\HP\eclipse-workspace\SwagLab\Screenshots\verifyBoatLogoTest.jpeg (The system cannot find the path specified)
-	at java.base/java.io.FileOutputStream.open0(Native Method)
-	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:298)
-	at java.base/java.io.FileOutputStream.&lt;init&gt;(FileOutputStream.java:237)
-	at java.base/java.io.FileOutputStream.&lt;init&gt;(FileOutputStream.java:187)
-	at org.openqa.selenium.io.FileHandler.copyFile(FileHandler.java:136)
-	at org.openqa.selenium.io.FileHandler.copy(FileHandler.java:115)
-	at com.Utility.UtilityMethods.screenshot(UtilityMethods.java:106)
-	at com.qa.Tests.BaseTest.tearDownMethod(BaseTest.java:55)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
-	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:340)
-	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:294)
-	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:683)
-	at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:658)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:642)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-	at org.testng.TestRunner.privateRun(TestRunner.java:770)
-	at org.testng.TestRunner.run(TestRunner.java:591)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
-	at org.testng.TestNG.runSuites(TestNG.java:1032)
-	at org.testng.TestNG.run(TestNG.java:1000)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:151)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:192)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:93)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:155)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
-</pre></div></td>
+<td title='com.qa.Tests.LoginPageTest.verifyLoginPageTitle()'><b>verifyLoginPageTitle</b><br>Test class: com.qa.Tests.LoginPageTest<br/>
+<a href="#Output-962058379" onClick='toggleBox("Output-962058379", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-962058379" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-962058379">
+Login page Title : Swag Labs<br/>
+</div>
+</td>
+<td></td>
 <td>0</td>
-<td>com.qa.Tests.LoginPageTest@158a8276</td></tr>
+<td>com.qa.Tests.LoginPageTest@65d09a04</td></tr>
 <tr>
-<td title='com.qa.Tests.LoginPageTest.verifyLoginPageURL()'><b>verifyLoginPageURL</b><br>Test class: com.qa.Tests.LoginPageTest</td>
-<td><div><pre>java.io.FileNotFoundException: C:\Users\HP\eclipse-workspace\SwagLab\Screenshots\verifyBoatLogoTest.jpeg (The system cannot find the path specified)
-	at java.base/java.io.FileOutputStream.open0(Native Method)
-	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:298)
-	at java.base/java.io.FileOutputStream.&lt;init&gt;(FileOutputStream.java:237)
-	at java.base/java.io.FileOutputStream.&lt;init&gt;(FileOutputStream.java:187)
-	at org.openqa.selenium.io.FileHandler.copyFile(FileHandler.java:136)
-	at org.openqa.selenium.io.FileHandler.copy(FileHandler.java:115)
-	at com.Utility.UtilityMethods.screenshot(UtilityMethods.java:106)
-	at com.qa.Tests.BaseTest.tearDownMethod(BaseTest.java:55)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-... Removed 37 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace327561535", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace327561535'><pre>java.io.FileNotFoundException: C:\Users\HP\eclipse-workspace\SwagLab\Screenshots\verifyBoatLogoTest.jpeg (The system cannot find the path specified)
-	at java.base/java.io.FileOutputStream.open0(Native Method)
-	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:298)
-	at java.base/java.io.FileOutputStream.&lt;init&gt;(FileOutputStream.java:237)
-	at java.base/java.io.FileOutputStream.&lt;init&gt;(FileOutputStream.java:187)
-	at org.openqa.selenium.io.FileHandler.copyFile(FileHandler.java:136)
-	at org.openqa.selenium.io.FileHandler.copy(FileHandler.java:115)
-	at com.Utility.UtilityMethods.screenshot(UtilityMethods.java:106)
-	at com.qa.Tests.BaseTest.tearDownMethod(BaseTest.java:55)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
-	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:340)
-	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:294)
-	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:683)
-	at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:658)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:642)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-	at org.testng.TestRunner.privateRun(TestRunner.java:770)
-	at org.testng.TestRunner.run(TestRunner.java:591)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
-	at org.testng.TestNG.runSuites(TestNG.java:1032)
-	at org.testng.TestNG.run(TestNG.java:1000)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:151)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:192)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:93)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:155)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
-</pre></div></td>
+<td title='com.qa.Tests.LoginPageTest.verifyLoginPageURL()'><b>verifyLoginPageURL</b><br>Test class: com.qa.Tests.LoginPageTest<br/>
+<a href="#Output-1157328573" onClick='toggleBox("Output-1157328573", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1157328573" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1157328573">
+Login page URL : https://www.saucedemo.com/<br/>
+</div>
+</td>
+<td></td>
 <td>0</td>
-<td>com.qa.Tests.LoginPageTest@158a8276</td></tr>
+<td>com.qa.Tests.LoginPageTest@65d09a04</td></tr>
 <tr>
 <td title='com.qa.Tests.LoginPageTest.verifyPassword()'><b>verifyPassword</b><br>Test class: com.qa.Tests.LoginPageTest</td>
-<td><div><pre>java.io.FileNotFoundException: C:\Users\HP\eclipse-workspace\SwagLab\Screenshots\verifyBoatLogoTest.jpeg (The system cannot find the path specified)
-	at java.base/java.io.FileOutputStream.open0(Native Method)
-	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:298)
-	at java.base/java.io.FileOutputStream.&lt;init&gt;(FileOutputStream.java:237)
-	at java.base/java.io.FileOutputStream.&lt;init&gt;(FileOutputStream.java:187)
-	at org.openqa.selenium.io.FileHandler.copyFile(FileHandler.java:136)
-	at org.openqa.selenium.io.FileHandler.copy(FileHandler.java:115)
-	at com.Utility.UtilityMethods.screenshot(UtilityMethods.java:106)
-	at com.qa.Tests.BaseTest.tearDownMethod(BaseTest.java:55)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-... Removed 37 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1694804085", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1694804085'><pre>java.io.FileNotFoundException: C:\Users\HP\eclipse-workspace\SwagLab\Screenshots\verifyBoatLogoTest.jpeg (The system cannot find the path specified)
-	at java.base/java.io.FileOutputStream.open0(Native Method)
-	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:298)
-	at java.base/java.io.FileOutputStream.&lt;init&gt;(FileOutputStream.java:237)
-	at java.base/java.io.FileOutputStream.&lt;init&gt;(FileOutputStream.java:187)
-	at org.openqa.selenium.io.FileHandler.copyFile(FileHandler.java:136)
-	at org.openqa.selenium.io.FileHandler.copy(FileHandler.java:115)
-	at com.Utility.UtilityMethods.screenshot(UtilityMethods.java:106)
-	at com.qa.Tests.BaseTest.tearDownMethod(BaseTest.java:55)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
-	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:340)
-	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:294)
-	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:683)
-	at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:658)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:642)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-	at org.testng.TestRunner.privateRun(TestRunner.java:770)
-	at org.testng.TestRunner.run(TestRunner.java:591)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
-	at org.testng.TestNG.runSuites(TestNG.java:1032)
-	at org.testng.TestNG.run(TestNG.java:1000)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:151)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:192)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:93)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:155)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
-</pre></div></td>
+<td></td>
 <td>0</td>
-<td>com.qa.Tests.LoginPageTest@158a8276</td></tr>
+<td>com.qa.Tests.LoginPageTest@65d09a04</td></tr>
 <tr>
 <td title='com.qa.Tests.InventoryPageTest.verifyPriceLowToHighDropdownOptionTest()'><b>verifyPriceLowToHighDropdownOptionTest</b><br>Test class: com.qa.Tests.InventoryPageTest</td>
-<td><div><pre>java.io.FileNotFoundException: C:\Users\HP\eclipse-workspace\SwagLab\Screenshots\verifyCartCountTest.jpeg (The system cannot find the path specified)
-	at java.base/java.io.FileOutputStream.open0(Native Method)
-	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:298)
-	at java.base/java.io.FileOutputStream.&lt;init&gt;(FileOutputStream.java:237)
-	at java.base/java.io.FileOutputStream.&lt;init&gt;(FileOutputStream.java:187)
-	at org.openqa.selenium.io.FileHandler.copyFile(FileHandler.java:136)
-	at org.openqa.selenium.io.FileHandler.copy(FileHandler.java:115)
-	at com.Utility.UtilityMethods.screenshot(UtilityMethods.java:106)
-	at com.qa.Tests.BaseTest.tearDownMethod(BaseTest.java:55)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-... Removed 37 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1829883631", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1829883631'><pre>java.io.FileNotFoundException: C:\Users\HP\eclipse-workspace\SwagLab\Screenshots\verifyCartCountTest.jpeg (The system cannot find the path specified)
-	at java.base/java.io.FileOutputStream.open0(Native Method)
-	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:298)
-	at java.base/java.io.FileOutputStream.&lt;init&gt;(FileOutputStream.java:237)
-	at java.base/java.io.FileOutputStream.&lt;init&gt;(FileOutputStream.java:187)
-	at org.openqa.selenium.io.FileHandler.copyFile(FileHandler.java:136)
-	at org.openqa.selenium.io.FileHandler.copy(FileHandler.java:115)
-	at com.Utility.UtilityMethods.screenshot(UtilityMethods.java:106)
-	at com.qa.Tests.BaseTest.tearDownMethod(BaseTest.java:55)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
-	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:340)
-	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:294)
-	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:683)
-	at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:658)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:642)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-	at org.testng.TestRunner.privateRun(TestRunner.java:770)
-	at org.testng.TestRunner.run(TestRunner.java:591)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
-	at org.testng.TestNG.runSuites(TestNG.java:1032)
-	at org.testng.TestNG.run(TestNG.java:1000)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:151)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:192)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:93)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:155)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
-</pre></div></td>
-<td>0</td>
-<td>com.qa.Tests.InventoryPageTest@13b6aecc</td></tr>
+<td></td>
+<td>2</td>
+<td>com.qa.Tests.InventoryPageTest@5aebe890</td></tr>
 <tr>
 <td title='com.qa.Tests.LoginPageTest.verifyUsername()'><b>verifyUsername</b><br>Test class: com.qa.Tests.LoginPageTest</td>
-<td><div><pre>java.io.FileNotFoundException: C:\Users\HP\eclipse-workspace\SwagLab\Screenshots\verifyBoatLogoTest.jpeg (The system cannot find the path specified)
-	at java.base/java.io.FileOutputStream.open0(Native Method)
-	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:298)
-	at java.base/java.io.FileOutputStream.&lt;init&gt;(FileOutputStream.java:237)
-	at java.base/java.io.FileOutputStream.&lt;init&gt;(FileOutputStream.java:187)
-	at org.openqa.selenium.io.FileHandler.copyFile(FileHandler.java:136)
-	at org.openqa.selenium.io.FileHandler.copy(FileHandler.java:115)
-	at com.Utility.UtilityMethods.screenshot(UtilityMethods.java:106)
-	at com.qa.Tests.BaseTest.tearDownMethod(BaseTest.java:55)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-... Removed 37 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace680466239", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace680466239'><pre>java.io.FileNotFoundException: C:\Users\HP\eclipse-workspace\SwagLab\Screenshots\verifyBoatLogoTest.jpeg (The system cannot find the path specified)
-	at java.base/java.io.FileOutputStream.open0(Native Method)
-	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:298)
-	at java.base/java.io.FileOutputStream.&lt;init&gt;(FileOutputStream.java:237)
-	at java.base/java.io.FileOutputStream.&lt;init&gt;(FileOutputStream.java:187)
-	at org.openqa.selenium.io.FileHandler.copyFile(FileHandler.java:136)
-	at org.openqa.selenium.io.FileHandler.copy(FileHandler.java:115)
-	at com.Utility.UtilityMethods.screenshot(UtilityMethods.java:106)
-	at com.qa.Tests.BaseTest.tearDownMethod(BaseTest.java:55)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
-	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:340)
-	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:294)
-	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:683)
-	at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:658)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:642)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-	at org.testng.TestRunner.privateRun(TestRunner.java:770)
-	at org.testng.TestRunner.run(TestRunner.java:591)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
-	at org.testng.TestNG.runSuites(TestNG.java:1032)
-	at org.testng.TestNG.run(TestNG.java:1000)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:151)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:192)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:93)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:155)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
-</pre></div></td>
+<td></td>
 <td>0</td>
-<td>com.qa.Tests.LoginPageTest@158a8276</td></tr>
+<td>com.qa.Tests.LoginPageTest@65d09a04</td></tr>
 </table><p>
 </body>
 </html>

@@ -1,89 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="9" total="10" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-02-09T12:45:38 IST" name="Default suite" finished-at="2023-02-09T12:46:36 IST" duration-ms="58503">
+  <suite started-at="2023-02-11T17:18:56 IST" name="Default suite" finished-at="2023-02-11T17:19:42 IST" duration-ms="45236">
     <groups>
     </groups>
-    <test started-at="2023-02-09T12:45:38 IST" name="Default test" finished-at="2023-02-09T12:46:36 IST" duration-ms="58503">
-      <class name="com.qa.Tests.InventoryPageTest">
-        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:com.qa.Tests.InventoryPageTest@747edf66]" started-at="2023-02-09T12:45:38 IST" name="setUpMethod" finished-at="2023-02-09T12:45:50 IST" duration-ms="12214" status="PASS">
+    <test started-at="2023-02-11T17:18:56 IST" name="Default test" finished-at="2023-02-11T17:19:42 IST" duration-ms="45236">
+      <class name="com.qa.Tests.LoginPageTest">
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:com.qa.Tests.LoginPageTest@550ee7e5]" started-at="2023-02-11T17:18:56 IST" name="setUpMethod" finished-at="2023-02-11T17:19:31 IST" duration-ms="34232" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpMethod -->
-        <test-method signature="verifyCartCountTest()[pri:0, instance:com.qa.Tests.InventoryPageTest@747edf66]" started-at="2023-02-09T12:45:50 IST" name="verifyCartCountTest" finished-at="2023-02-09T12:45:52 IST" duration-ms="1925" status="PASS">
+        <test-method signature="verifyLogin()[pri:0, instance:com.qa.Tests.LoginPageTest@550ee7e5]" started-at="2023-02-11T17:19:31 IST" name="verifyLogin" finished-at="2023-02-11T17:19:36 IST" duration-ms="5710" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyCartCountTest -->
-        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.qa.Tests.InventoryPageTest@747edf66]" started-at="2023-02-09T12:45:52 IST" name="tearDownMethod" finished-at="2023-02-09T12:45:55 IST" duration-ms="3451" status="PASS">
+        </test-method> <!-- verifyLogin -->
+        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.qa.Tests.LoginPageTest@550ee7e5]" started-at="2023-02-11T17:19:36 IST" name="tearDownMethod" finished-at="2023-02-11T17:19:42 IST" duration-ms="5248" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyCartCountTest status=SUCCESS method=InventoryPageTest.verifyCartCountTest()[pri:0, instance:com.qa.Tests.InventoryPageTest@747edf66] output={null}]]]>
+                <![CDATA[[TestResult name=verifyLogin status=SUCCESS method=LoginPageTest.verifyLogin()[pri:0, instance:com.qa.Tests.LoginPageTest@550ee7e5] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownMethod -->
-        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:com.qa.Tests.InventoryPageTest@747edf66]" started-at="2023-02-09T12:45:55 IST" name="setUpMethod" finished-at="2023-02-09T12:46:01 IST" duration-ms="6309" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpMethod -->
-        <test-method signature="verifyItemAddedToCartTest()[pri:0, instance:com.qa.Tests.InventoryPageTest@747edf66]" started-at="2023-02-09T12:46:01 IST" name="verifyItemAddedToCartTest" finished-at="2023-02-09T12:46:03 IST" duration-ms="1397" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyItemAddedToCartTest -->
-        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.qa.Tests.InventoryPageTest@747edf66]" started-at="2023-02-09T12:46:03 IST" name="tearDownMethod" finished-at="2023-02-09T12:46:04 IST" duration-ms="1008" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyItemAddedToCartTest status=SUCCESS method=InventoryPageTest.verifyItemAddedToCartTest()[pri:0, instance:com.qa.Tests.InventoryPageTest@747edf66] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownMethod -->
-        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:com.qa.Tests.InventoryPageTest@747edf66]" started-at="2023-02-09T12:46:04 IST" name="setUpMethod" finished-at="2023-02-09T12:46:15 IST" duration-ms="10891" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpMethod -->
-        <test-method signature="verifyItemRemovesFromCart()[pri:0, instance:com.qa.Tests.InventoryPageTest@747edf66]" started-at="2023-02-09T12:46:15 IST" name="verifyItemRemovesFromCart" finished-at="2023-02-09T12:46:17 IST" duration-ms="1830" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyItemRemovesFromCart -->
-        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.qa.Tests.InventoryPageTest@747edf66]" started-at="2023-02-09T12:46:17 IST" name="tearDownMethod" finished-at="2023-02-09T12:46:26 IST" duration-ms="9646" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyItemRemovesFromCart status=SUCCESS method=InventoryPageTest.verifyItemRemovesFromCart()[pri:0, instance:com.qa.Tests.InventoryPageTest@747edf66] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownMethod -->
-        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:com.qa.Tests.InventoryPageTest@747edf66]" started-at="2023-02-09T12:46:26 IST" name="setUpMethod" finished-at="2023-02-09T12:46:32 IST" duration-ms="6002" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpMethod -->
-        <test-method signature="verifyPriceLowToHighDropdownOptionTest()[pri:0, instance:com.qa.Tests.InventoryPageTest@747edf66]" started-at="2023-02-09T12:46:32 IST" name="verifyPriceLowToHighDropdownOptionTest" finished-at="2023-02-09T12:46:35 IST" duration-ms="2405" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyPriceLowToHighDropdownOptionTest -->
-        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.qa.Tests.InventoryPageTest@747edf66]" started-at="2023-02-09T12:46:35 IST" name="tearDownMethod" finished-at="2023-02-09T12:46:36 IST" duration-ms="1349" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyPriceLowToHighDropdownOptionTest status=SUCCESS method=InventoryPageTest.verifyPriceLowToHighDropdownOptionTest()[pri:0, instance:com.qa.Tests.InventoryPageTest@747edf66] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownMethod -->
-      </class> <!-- com.qa.Tests.InventoryPageTest -->
+      </class> <!-- com.qa.Tests.LoginPageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
