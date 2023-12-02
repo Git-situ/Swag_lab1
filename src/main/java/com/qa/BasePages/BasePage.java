@@ -6,6 +6,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 
 public class BasePage extends Page {
 //added code in qa
+//added from main
 	public BasePage(WebDriver driver) {
 		super(driver);
 	}
