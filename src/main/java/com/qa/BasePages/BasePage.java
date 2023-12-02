@@ -5,7 +5,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
 public class BasePage extends Page {
-
+//added from main
 	public BasePage(WebDriver driver) {
 		super(driver);
 	}
